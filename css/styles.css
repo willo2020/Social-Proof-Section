@@ -1,0 +1,80 @@
+body {
+  padding: 8% 10% 0;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+/* TITLE */
+
+h1 {
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+.title {
+  padding: 0 13% 0 0;
+}
+
+/* RATING */
+
+h6 {
+  display: inline-block;
+  color: hsl(300, 43%, 22%);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0 0 0.5% 5%;
+}
+.rating {
+  padding: 0 5% 0 5%;
+}
+.rating-row {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5%;
+  margin: 5% auto;
+  padding-top: 2%;
+  text-align: center;
+  width: 380px;
+}
+.rating-row img {
+  display: inline-block;
+  margin: auto 0.5%;
+  padding-bottom: 1%;
+  width: 0.8rem;
+}
+
+/* BOTTOM */
+.bottom {
+  padding: 2% 5% 0 5%;
+}
+.bottom img {
+  border-radius: 100%;
+  float: left;
+  margin-top: 5%;
+  width: 15%;
+}
+.card {
+  background-color: hsl(300, 43%, 22%);
+  margin: 0 1.5% 2% 1.5%;
+  width: 30%;
+}
+.name {
+  color: hsl(300, 24%, 96%);
+  font-size: 0.6rem;
+  font-weight: 700;
+  margin: 5.5% auto 0 25%;
+}
+.status {
+  color: hsl(333, 80%, 67%);
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin: 1.5% auto 0 25%;
+}
+.card-body p {
+  color: hsl(300, 24%, 96%);
+  font-size: 0.7rem;
+}
